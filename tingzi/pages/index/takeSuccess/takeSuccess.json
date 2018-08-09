@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "取号成功",
+  "usingComponents": {
+    "desk-type": "./../../../../components/deskType/deskType"
+  }
+}

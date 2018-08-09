@@ -1,0 +1,81 @@
+/* pages/index/diningRoom/diningRoom.wxss */
+
+.main {
+  background-color: #ededed;
+}
+
+.top {
+  height: 50px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.top image {
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+.top-center {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  height: 50px;
+  line-height: 25px;
+}
+
+.top-center-up {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.top-center-down {
+  font-size: 13px;
+  color: #808080;
+}
+
+.top-right {
+  font-size: 14px;
+  color: #c6a300;
+  height: 50px;
+  line-height: 50px;
+  float: right;
+}
+
+.cell {
+  margin-top: 5px;
+  background-color: #fff;
+  padding: 10px 0;
+}
+
+.cell-top {
+  color: #808080;
+  font-size: 13px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  margin: 10px 0px;
+  background-color: #f6f6f6;
+}
+
+.cell-mian {
+  font-size: 10px;
+  padding: 0 10px;
+}
+
+.cell-mian view {
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.cell-mian button {
+  float: right;
+  background-color: #bf0060;
+  color: #f5f5f5;
+  margin-top: 15px;
+}

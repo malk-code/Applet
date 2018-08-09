@@ -1,0 +1,73 @@
+/* pages/index/takeSuccess/takeSuccess.wxss */
+
+.top {
+  padding: 10px;
+  border-bottom: solid 1px #d9d9d9;
+  padding-bottom: 20px;
+}
+
+.top text {
+  display: block;
+}
+
+.top-tips {
+  font-size: 15px;
+  color: #6c6c6c;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+.top-main {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.top-remark {
+  text-align: center;
+  color: #4f4f4f;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.middle-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-top text {
+  color: #4f4f4f;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  /* 无宽度伸缩盒会无效 */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom button {
+  width: 38%;
+  color: #fff;
+  margin-bottom: 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 20px;
+}
+
+.bottom-left {
+  margin-left: 8%;
+  background-color: #C6A300;
+}
+
+.bottom-right {
+  margin-right: 8%;
+  background-color: #b22222;
+}

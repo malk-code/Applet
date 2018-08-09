@@ -1,0 +1,39 @@
+<!--components/deskType/deskType.wxml-->
+<view class='top top-title'>
+    <text>餐桌类型</text>
+    <text>等待桌数</text>
+    <text>当前叫号</text>
+  </view>
+  <view class='top top-content'>
+    <view>
+      <text class='top-mian'>小桌</text>
+      <text class='top-mini'>5-6人</text>
+    </view>
+    <view>
+      <text class='top-center'>0</text>
+      <text class='top-mini'>桌</text>
+    </view>
+    <text>A01</text>
+  </view>
+  <view class='top top-content'>
+    <view>
+      <text class='top-mian'>小桌</text>
+      <text class='top-mini'>5-6人</text>
+    </view>
+    <view>
+      <text class='top-center'>0</text>
+      <text class='top-mini'>桌</text>
+    </view>
+    <text>A01</text>
+  </view>
+  <view class='top top-content'>
+    <view>
+      <text class='top-main'>小桌</text>
+      <text class='top-mini'>5-6人</text>
+    </view>
+    <view>
+      <text class='top-center'>0</text>
+      <text class='top-mini'>桌</text>
+    </view>
+    <text>A01</text>
+  </view>

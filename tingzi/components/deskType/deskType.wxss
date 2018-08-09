@@ -1,0 +1,38 @@
+/* components/deskType/deskType.wxss */
+.top {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+  background-color: #fff;
+}
+
+.top > view, .top > text {
+  width: 25%;
+}
+
+.top-title {
+  background-color: #b22222;
+  color: #fff;
+}
+
+.top-content {
+  color: #aeaeae;
+  border-bottom: dashed 1px #bcbcbc;
+}
+
+.tom-mini {
+  font-size: 14px;
+}
+
+.top-main {
+  color: #333;
+}
+
+.top-center {
+  color: #fd0f0f;
+  font-size: 18px;
+  font-weight: 600;
+}

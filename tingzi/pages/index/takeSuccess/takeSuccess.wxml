@@ -1,0 +1,17 @@
+<!--pages/index/takeSuccess/takeSuccess.wxml-->
+<view class='main'>
+  <view class='top'>
+    <text class='top-tips'>取号成功，您的排队号码是：</text>
+    <text class='top-main'>A01</text>
+    <text class='top-remark'>大桌（7人以上）</text>
+  </view>
+  <view class='middle-top'>
+    <text>排队手机号：12345678900</text>
+    <text>用餐人数：7人</text>
+  </view>
+  <desk-type></desk-type>
+  <view class='bottom'>
+      <button class='bottom-left' bindtap='toIndex'>返回首页</button>
+      <button class='bottom-right' bindtap='toIndent'>提前点单</button>
+  </view>
+</view>

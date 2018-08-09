@@ -1,0 +1,37 @@
+<!--pages/index/children/takeNumber/takeNumber.wxml-->
+<view class='main' style="height:{{main_height}}px">
+  <view class='navigationBar'>
+    <image src='./../../../assets/icon/home_back.png' bindtap='redirectBack'></image>
+    <text>现化大酒店中餐厅</text>
+    <image src='./../../../assets/icon/home_refresh.png'></image>
+  </view>
+  <desk-type></desk-type>
+  <view class='remark-cell cell-align-left'>
+    <view>
+      <text class='cell-need'>*</text>
+      <text>就餐人数：</text>
+    </view>
+    <view class='cell-picker'>
+      <picker bindchange="bindPickerChange" value="{{pickIndex}}" range="{{pickList}}">
+        <view class="picker">
+         {{pickList[pickIndex]}}位
+        </view>
+      </picker>
+    <image src='./../../../assets/icon/arrow-right.png'></image>
+    </view>
+  </view>
+  <view class='remark-cell'>
+    <text>联系电话：</text>
+  </view>
+  <view class='remark-cell'>
+    <text>联系电话：</text>
+  </view>
+  <view class='bottom'>
+    <text>备注:带</text>
+    <text class='cell-need'>*</text>
+    <text>的为必填项</text>
+    <view>
+      <button size='default' bindtap='toTakeSuccess'>取号</button>
+    </view>
+  </view>
+</view>

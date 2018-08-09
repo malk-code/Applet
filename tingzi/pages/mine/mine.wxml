@@ -1,0 +1,4 @@
+<!--pages/mine/mine.wxml-->
+<view>个人中心</view>
+
+<desk-type></desk-type>

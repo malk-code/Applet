@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class='main'>
+  <image class="top" src="./../../assets/image/index_top.png"></image>
+  <view class='middle'>
+      <view class='icon'>
+        <image src="./../../assets/icon/home_order.png"></image>
+        <text>在线点餐</text>
+      </view>
+      <view class='icon' bindtap="toDiningRoom">
+        <image src="./../../assets/icon/home_queue.png"></image>
+        <text>线上排队</text>
+      </view>
+      <view class='icon no-line'>
+        <image src="./../../assets/icon/home_online.png"></image>
+        <text>线上预定</text>
+      </view>
+      <view class='line'></view>
+      <view class='icon'>
+        <image src="./../../assets/icon/home_vip.png"></image>
+        <text>会员专区</text>
+      </view>
+      <view class='icon'>
+        <image src="./../../assets/icon/home_integral.png"></image>
+        <text>积分商城</text>
+      </view>
+      <view class='icon no-line'>
+        <image src="./../../assets/icon/home_mall.png"></image>
+        <text>微商城</text>
+      </view>
+  </view>
+</view>
+

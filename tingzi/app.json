@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/indent/indent",
+    "pages/mine/mine",
+    "pages/index/diningRoom/diningRoom",
+    "pages/index/takeNumber/takeNumber",
+    "pages/index/takeSuccess/takeSuccess"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#B22222",
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./assets/tabBar/home.png",
+        "selectedIconPath": "./assets/tabBar/home_seleted.png"
+      },
+      {
+        "pagePath": "pages/indent/indent",
+        "text": "订单",
+        "iconPath": "./assets/tabBar/indent.png",
+        "selectedIconPath": "./assets/tabBar/indent_seleted.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./assets/tabBar/mine.png",
+        "selectedIconPath": "./assets/tabBar/mine_seleted.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
